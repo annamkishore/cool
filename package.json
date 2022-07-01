@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "deploy": "gh-pages -d build"
   },
   "repository": "https://github.com/annamkishore/cool.git",
   "author": "Krisha Annam <krishna.kishore@matellio.com>",
@@ -15,5 +16,8 @@
     "next": "^12.2.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "gh-pages": "^4.0.0"
   }
 }
