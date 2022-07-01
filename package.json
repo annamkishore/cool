@@ -1,0 +1,19 @@
+{
+  "name": "cool",
+  "version": "1.0.0",
+  "description": "cool tools",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "repository": "https://github.com/annamkishore/cool.git",
+  "author": "Krisha Annam <krishna.kishore@matellio.com>",
+  "license": "MIT",
+  "dependencies": {
+    "next": "^12.2.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
